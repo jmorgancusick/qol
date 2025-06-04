@@ -31,7 +31,7 @@
 ;;; Line numbers and column numbers
 (column-number-mode t)
 (line-number-mode t)
-(global-linum-mode t)
+(global-display-line-numbers-mode 1) ;; Enable line numbers globally
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
